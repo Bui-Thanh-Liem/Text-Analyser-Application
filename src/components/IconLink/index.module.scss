@@ -1,0 +1,22 @@
+@import "../../assets/styles/theme.scss"; 
+
+.iconLink {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 8px 10px; 
+    background-color: $secondary-background;  
+    box-shadow: $box-shadow;
+    .container {
+        font-size: 1.4rem;
+        color: $primary-text;
+    }
+
+    & + .iconLink {
+        margin-left: 16px;
+    }
+
+    &:hover {
+        opacity: .8;
+    }
+}

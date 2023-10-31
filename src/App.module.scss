@@ -1,0 +1,9 @@
+@import "./assets/styles/theme.scss";
+
+.app {
+    .container {
+        background-color: $primary-background;
+        height: 100vh;
+        position: relative;
+    }
+}

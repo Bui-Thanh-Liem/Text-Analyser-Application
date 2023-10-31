@@ -1,0 +1,16 @@
+@import "../../assets/styles/theme.scss";
+
+.textArea {
+    .container {
+        margin: 16px 0;
+        background-color: $secondary-background;
+    }
+}
+
+.textAreaField {
+    border: none;
+    outline: none;
+    &:focus {
+        box-shadow: none;
+    }
+}

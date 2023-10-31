@@ -1,0 +1,7 @@
+@import "../../assets/styles/theme.scss";
+
+@mixin stylesHeaderFooter {
+    min-height: $height-header;
+    background-color: $third-background;
+    box-shadow: $box-shadow;
+}

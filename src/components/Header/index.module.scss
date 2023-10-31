@@ -1,0 +1,27 @@
+@import "../../assets/styles/_mixin.scss";
+
+
+.header {
+    .container {
+        @include stylesHeaderFooter;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 6px 0;
+        z-index: 2;
+    }
+}
+
+.header-element {
+    .header-title {
+        font-weight: 600;
+        font-size: 1.8rem;
+    }
+
+    &:last-child {
+        text-align: right;
+    }
+}
+
+
